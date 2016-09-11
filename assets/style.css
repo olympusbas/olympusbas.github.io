@@ -67,7 +67,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.spacer{padding: 2em;}
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
 	body{font-size:13px;line-height: 13px; }
 	h1{font-size:2em;}
 	h2{font-size:1.10em;margin-bottom: 0.5em;}
@@ -80,12 +80,41 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.navbar-brand{height: 56px;}
 	.btn {padding: 0.5em 2em;}
 }	
-
 @media (max-width: 767px) {
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
 	h1{padding: 2em 0;}
 	.navbar-nav > li > a {line-height: 1em;}	
-	.navbar-brand{padding: 7px;height: 50px;line-height: 2em;margin-left: 15px !important;}	
+	.navbar-brand{padding: 7px;height: 50px;line-height: 2em;margin-left: 15px !important;}
+	.navbar-default{background: #fff !important;}
+	.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#222222 ;color: #fff;border: none;border-radius: 0;}
+	.navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
+	.footer{margin-top: 2em;padding-bottom: 2em;}
+}*/
+
+@media (max-width: 900px) {
+	.col-sm-7.wowload.fadeInRight.animated{margin-top:10%;}
+	.col-sm-7.wowload.fadeInLeft.animated{margin-top:9%;}
+	.service p{font-size: 0.97em;}
+	/*img.img-responsive{margin-top:10%;}*/
+	/*body{font-size:13px;line-height: 13px; }*/
+	h1{font-size:2em;}
+	h2{font-size:1.3em;margin-bottom: 0.5em;}
+	/*h3{font-size:1em;}*/
+	p{line-height: 1.4em;}
+	.service{padding: 0 0 1em 0;}
+	/*.service p{font-size: 0.85em;}*/
+	.btn{padding: 1em 2em;}
+	.spacer {padding: 1.5em 1.5em 0 1.5em;}
+	/*.navbar-brand{height: 56px;}*/
+	.btn {padding: 0.5em 2em;}
+}	
+
+@media (max-width: 767px) {
+	/*body{font:300 12px/12px Roboto,Arial,Helvetica;}*/
+	h1{padding: 2em 0;}
+	.navbar-nav > li > a {line-height: 1em;}	
+	/*.navbar-brand{padding: 7px;height: 50px;line-height: 2em;margin-left: 15px !important;}*/
+	.navbar-brand{margin-left: 15px !important;}
 	.navbar-default{background: #fff !important;}
 	.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#222222 ;color: #fff;border: none;border-radius: 0;}
 	.navbar-default .navbar-toggle .icon-bar{background-color: #fff;}

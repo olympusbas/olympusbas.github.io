@@ -141,20 +141,23 @@
    
     <form class="wowload fadeInRightBig" action="https://formspree.io/support@olympusbas.com" method="POST">      
         <div class="form-group">
-          <input type="text" name="name" placeholder="Name" class="form-control">
+          <input type="text" name="name" placeholder="Name" class="form-control" required>
         </div>
         <div class="form-group">
-          <input type="email" name="_replyto" placeholder="Email" class="form-control">
+          <input type="email" name="_replyto" placeholder="Email" class="form-control" required>
         </div>
-        <input type="hidden" name="_subject" value="Inquiry" />
-        <input type="hidden" name="_cc" value="hanniabu@gmail.com,rudster123@gmail.com" />
-        <input type="text" name="_gotcha" style="display:none">
         <div class="form-group">
-          <textarea type="text" rows="5" placeholder="Message" class="form-control"></textarea>
+          <textarea type="text" name="InputMessage" rows="5" placeholder="Message" class="form-control" required></textarea>
         </div>
         <div class="form-group">
           <button type="submit" value="Send" class="btn btn-danger"><i class="fa fa-paper-plane"></i> Send</button>
         </div>
+        
+        <input type="hidden" name="_next" value="https://formspree.io/thanks">
+        <input type="hidden" name="_subject" value="Inquiry" />
+        <input type="hidden" name="_cc" value="hanniabu@gmail.com,rudster123@gmail.com" />
+        <input type="text" name="_gotcha" style="display:none">
+        <input type="hidden" name="_format" value="plain" />
     </form>  
 
     </div>  
